@@ -1,11 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
     <link rel="stylesheet" href="si.css">
 </head>
+<style>
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    .col {
+        flex: 1 1 30%;
+        margin: 20px;
+        padding: 20px;
+        border: 2px solid #265077;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .col img {
+        width: 40%;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+
+    .col h3 {
+        color: #265077;
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    .col p {
+        color: black;
+        font-size: 25px;
+        line-height: 1.5;
+    }
+</style>
+
 <body>
     <div class="header">
         <a href="#"><img class="logo" src="Image/logo.png" alt="logo"></a>
@@ -17,13 +54,43 @@
         </ul>
         <div class="clearfix"></div>
         <div class="row">
-            <h1 id="heading">HEADLINE</h1>
+            <h1 id="heading">About Poetry Foundation</h1>
             <div class="clearfix"></div>
         </div>
     </div>
 
-    <div class="row">
-        <!-- About Us content goes here -->
+    <div class="container">
+        <div class="col">
+            <h3>Welcome to the Poetry Foundation</h3>
+            <p>Where the spirit of culture and art is elevated through every word of poetry.</p>
+            <img src="Image/a.png" alt="image">
+        </div>
+        <div class="col">
+            <h3>Expressive Community: Poetry at Its Core</h3>
+            <p>At the Poetry Foundation, we are a passionate community, providing a platform for authors, poets, and poetry lovers to express themselves.</p>
+            <img src="Image/b.jpg" alt="image">
+        </div>
+        <div class="col">
+            <h3>Diverse Artistic Expression: From Tradition to Modernity</h3>
+            <p>We celebrate diversity in all forms of art, from traditional genres to modern styles, spreading the arts and humanities with every drop of ink.</p>
+            <img src="Image/c.jpeg" alt="image">
+        </div>
+        <div class="col">
+            <h3>Empowering Creativity: Our Comprehensive Support</h3>
+            <p>Our platform supports personal and artistic growth, offering editing services, writing courses, and expert advice to all individuals.</p>
+            <img src="Image/d.jpg" alt="image">
+        </div>
+        <div class="col">
+            <h3>Join Our Vibrant Poetry Community</h3>
+            <p>Join us to explore the world of poetry and creativity.</p>
+            <img src="Image/e.jpg" alt="image">
+        </div>
+        <div class="col">
+            <h3>Discover the Beauty: Poetry Foundation Welcomes You</h3>
+            <p>We are not just a company, but a community where passion for culture and art is spread every day. Join us in creating miracles with each word of poetry. Welcome to Poetry Foundation - where every line of poetry comes alive!</p>
+            <img src="Image/f.jpg" alt="image">
+        </div>
     </div>
 </body>
+
 </html>
