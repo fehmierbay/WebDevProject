@@ -85,6 +85,7 @@ h2:after {
   width: 70%;
   margin-left: 15%;
   line-height: 140%;
+  list-style-type: none;
 }
 
 section {
@@ -143,12 +144,14 @@ section {
 /* Topic butonları için stil */
 .topic {
   text-align: center; /* Butonları sola yaslamak için */
+  list-style-type: none;
 }
 
 .topic li {
   margin-bottom: 50px; /* Butonlar arasındaki dikey boşluk */
   position: relative; /* Göreceli konumlandırma için */
   display: inline-block;
+  list-style-type: none;
 }
 
 .topic li a {
@@ -160,12 +163,33 @@ section {
   border: 2px solid transparent; /* Buton kenarlık kalınlığı ve rengi */
   border-radius: 5px; /* Buton köşe yuvarlama */
   transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out; /* Geçiş efekti */
+  list-style-type: none;
+}
+
+#topic1 {
+  margin-left: -2%;
+}
+
+#topic2 {
+  margin-left: 8%;
+}
+
+#topic4 {
+  margin-left: 7%;
+}
+
+iframe {
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+  margin-left: 22%;
 }
 
 .topic li a:hover {
   background-color: #265077; /* Buton hover (üzerine gelindiğinde) arka plan rengi */
   border-color: #265077; /* Buton hover durumunda kenarlık rengi */
 }
+
 .map-frame,
 .contact-info-frame {
     width: 45%;
